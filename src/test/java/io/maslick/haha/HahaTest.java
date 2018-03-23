@@ -4,14 +4,12 @@ import io.maslick.haha.helper.ContextLoader;
 import io.maslick.haha.helper.IFileLoader;
 import org.junit.Test;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class HahaTest {
-
     @Test
-    public void haha() throws IOException {
+    public void haha() {
         // load file
         IFileLoader loader = new ContextLoader();
         List<String> strings = loader.getStringsFromFile("podatki-1.txt");
