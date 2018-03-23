@@ -30,23 +30,5 @@ public class HahaTest {
         System.out.println("Maximum " + maxScore + " so dosegli:");
         best.forEach(student -> System.out.println(student.id));
     }
-
-    class Student {
-        String id;
-        int score;
-
-        String getId() {
-            return id;
-        }
-
-        public int getScore() {
-            return score;
-        }
-
-        public Student(String id, int score) {
-            this.id = id;
-            this.score = score;
-        }
-    }
-
 }
+
